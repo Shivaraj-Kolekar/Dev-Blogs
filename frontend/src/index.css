@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.BlogCard {
+  width: 356px;
+  height: auto;
+}
+.image {
+  width: 356px;
+  height: 200px;
+}

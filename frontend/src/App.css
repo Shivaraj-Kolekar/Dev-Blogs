@@ -1,0 +1,84 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+.main {
+  margin: 0px 165px;
+}
+
+.font-container {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* styles.css or a relevant CSS file */
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+.blogpage h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.blogpage h2 {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+.blogpage h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.blogpage p {
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+}
+
+.blogpage strong {
+  font-weight: bold;
+}
+
+.blogpage em {
+  font-style: italic;
+}
+
+.blogpage code {
+  background-color: #373737;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+UserButton img {
+  padding: 24px;
+}
