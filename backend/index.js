@@ -22,7 +22,7 @@ app.use(
 
 mongoose
   .connect(
-    'mongodb+srv://shivkolekar01:WuC3cMJmSpD9E6v9@cluster0.c7sccmm.mongodb.net/'
+    'mongodb+srv://shivkolekar01:WuC3cMJmSpD9E6v9@cluster0.c7sccmm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
   ) //mongodb://localhost:27017/blog
 
   .then(() => console.log('Connected to DB'))
