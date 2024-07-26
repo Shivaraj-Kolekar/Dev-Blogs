@@ -21,7 +21,10 @@ app.use(
 )
 
 mongoose
-  .connect('mongodb://localhost:27017/blog')
+  .connect(
+    'mongodb+srv://shivkolekar01:WuC3cMJmSpD9E6v9@cluster0.c7sccmm.mongodb.net/'
+  ) //mongodb://localhost:27017/blog
+
   .then(() => console.log('Connected to DB'))
   .catch(err => console.log(err))
 

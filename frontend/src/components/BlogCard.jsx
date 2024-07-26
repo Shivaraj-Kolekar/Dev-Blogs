@@ -6,7 +6,7 @@ function BlogCard (props) {
   const { thumbnail, date, title, author, description } = props
   return (
     <>
-      <div className='BlogCard grid grid-rows-12 mx-2 h-auto cursor-pointer  bg-slate-900 my-2 sm:col-span-2 md:col-span-3 lg:col-span-4 border-gray-600 shadow-slate-950 drop-shadow-lg hover:bg-slate-800 hover:scale-105 hover:shadow-lg transition-transform transform border-2  text-white rounded-xl   '>
+      <div className='BlogCard grid grid-rows-12 mx-2 h-auto cursor-pointer  bg-slate-900 my-2 sm:col-span-2 md:col-span-3 lg:col-span-4 border-gray-600 shadow-slate-950 drop-shadow-lg hover:bg-slate-800 hover:scale-105 hover:shadow-lg transition-transform transform border-2  text-white rounded-2xl   '>
         <div className='grid row-span-6 p-2 '>
           <img
             className=' image rounded-xl h-full w-full'

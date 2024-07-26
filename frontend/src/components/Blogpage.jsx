@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import { marked } from 'marked'
 import DOMPurify from 'dompurify'
 import '../App.css'
-function Blogpage () {
+function Blogpage (props) {
   const [blog, setBlog] = useState(null)
   const { title } = useParams()
 
@@ -50,7 +50,13 @@ function Blogpage () {
           <h1 className='text-white text-xl flex flex-wrap my-4'>
             {blog.title}
           </h1>
-
+          <div className='w-screen p-2 '>
+            <img
+              className=' image rounded-xl h-full w-full'
+              src={`http://localhost:3000/${blog.thumbnail}`}
+              alt='Thumbnail'
+            />
+          </div>
           <h5 className='mt-2 mb-4'>By: {blog.author}</h5>
           <h5 className='mt-2 mb-4'>Date: {blog.date}</h5>
           <p className='my-4'>{blog.description}</p>
