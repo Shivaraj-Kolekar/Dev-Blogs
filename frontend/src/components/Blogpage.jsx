@@ -46,7 +46,7 @@ function Blogpage (props) {
   return (
     <div>
       {blog ? (
-        <div className='blogpage lg:mx-40 mx-11 flex justify-center align-middle self-center min-w-screen min-h-screen '>
+        <div className='blogpage lg:mx-40 mx-11 flex justify-center align-middle self-center flex-row min-w-screen min-h-screen '>
           <h1 className='text-white text-xl flex flex-wrap my-4'>
             {blog.title}
           </h1>
