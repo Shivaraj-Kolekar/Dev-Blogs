@@ -31,7 +31,7 @@ function App () {
                 placeholder='Youremail@mail.com'
               ></input>
               <button
-                className='bg-sky-500 self-center h-fit w-fit px-4 py-2 my-4 rounded-lg '
+                className='bg-sky-500 mb-4 self-center text-xl font-semibold h-fit w-fit px-4 py-2  rounded-lg '
                 type='submit'
               >
                 Subscribe
