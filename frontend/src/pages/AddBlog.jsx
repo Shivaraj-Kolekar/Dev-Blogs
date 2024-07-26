@@ -8,7 +8,10 @@ import '@uiw/react-md-editor/markdown-editor.css'
 import rehypeSanitize from 'rehype-sanitize'
 // No import is required in the WebPack.
 import '@uiw/react-markdown-preview/markdown.css'
+
+import { useUser } from '@clerk/clerk-react'
 function AddBlog () {
+  const { isSignedIn } = useUser()
   const mkdStr = 'Initial Markdown Value'
   const [value, setValue] = React.useState(mkdStr)
   const [title, setTitle] = useState('')
@@ -16,6 +19,16 @@ function AddBlog () {
   const [author, setAuthor] = useState('')
   const [description, setDescription] = useState('')
   const [thumbnail, setThumbnail] = useState(null) // New state for image
+
+  if (!isSignedIn) {
+    return (
+      <div className='flex min-h-screen min-w-screen justify-center align-middle text-5xl'>
+        <h1 className='flex justify-center self-center align-middle'>
+          Please sign in to add a blog.
+        </h1>
+      </div>
+    )
+  }
 
   const handleSubmit = async e => {
     e.preventDefault()
