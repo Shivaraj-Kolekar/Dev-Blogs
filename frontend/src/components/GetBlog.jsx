@@ -8,7 +8,7 @@ function GetBlog () {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/blogs')
+      .get(`${import.meta.env.VITE_API_URL}/blogs`)
       .then(res => {
         // Check if the response data contains the Task key with an array
         if (res.data && Array.isArray(res.data.blogs)) {

@@ -3,7 +3,7 @@ import axios from 'axios'
 function BlogByTitle () {
   function getBlogByTitle () {
     axios
-      .get('http://localhost:3000/blogs/:title', {
+      .get(`${import.meta.env.VITE_API_URL}/blogs/:title`, {
         params: {
           title: 'title'
         }

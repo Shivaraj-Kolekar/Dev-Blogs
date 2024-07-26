@@ -10,7 +10,7 @@ function BlogCard (props) {
         <div className='grid row-span-6 p-2 '>
           <img
             className=' image rounded-xl h-full w-full'
-            src={`http://localhost:3000/${thumbnail}`}
+            src={`${import.meta.env.VITE_API_URL}/${thumbnail}`}
             alt='Thumbnail'
           />
         </div>

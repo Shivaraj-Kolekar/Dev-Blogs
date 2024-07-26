@@ -12,7 +12,7 @@ function Blogpage (props) {
     const getBlogByTitle = async title => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/blogs/?title=${title}`
+          `${import.meta.env.VITE_API_URL}/blogs/?title=${title}`
         )
         console.log('Response data:', response.data) // Log the entire response data
 
