@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.2.9",
+    "@splinetool/react-spline": "^4.0.0",
     "@uiw/react-md-editor": "^4.0.4",
     "axios": "^1.7.2",
     "cors": "^2.8.5",

@@ -8,7 +8,7 @@ import {
 } from '@clerk/clerk-react'
 function header () {
   return (
-    <div className=' bg-slate-700 py-1  '>
+    <div className=' bg-slate-800 py-1  '>
       <div className='lg:mx-40 mx-4 flex align-middle justify-between my-2'>
         <h1 className=' text-xl font-bold my-4 text-center flex align-middle'>
           <Link to='/'>Dev's Blog</Link>

@@ -21,8 +21,9 @@ function App () {
         <div className='lg:mx-40 mx-11  min-h-screen min-w-screen flex justify-center flex-col px-4 py-4'>
           <div className='lg:mx-40  flex  flex-col justify-center py-16 '>
             <h1 className='text-2xl my-4 lg:text-3xl text-center'>
-              DEV Blogs is you one Stop for all tech blog to read and keep up
-              with different tech upcoming in the market.
+              <span className='font-extrabold'>DEV Blogs</span> is your one-stop
+              shop for reading and staying up to date on the latest technology
+              trends in the market.
             </h1>
             <div className='flex flex-col lg:flex-row self-center'>
               <input
