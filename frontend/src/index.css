@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 .BlogCard {
-  width: 356px;
-  height: auto;
+  width: 396px;
+  height: fit-content;
 }
 .image {
   width: 356px;
