@@ -54,8 +54,8 @@ function App () {
               </li>
             </ul>
           </div>
-          <div className='blogs flex justify-center align-middle gap-4 p-4 '>
-            {/*<BlogCard
+          <div className='blogs flex justify-center  flex-wrap align-middle gap-4 p-4 '>
+            <BlogCard
               title="Google's Monumental Code Migration: From Perforce to Piper"
               date='2/7/24'
               author='john doe'
@@ -96,7 +96,8 @@ function App () {
               date='2/7/24'
               author='john doe'
               source='https://media.beehiiv.com/cdn-cgi/image/format=auto,width=800,height=421,fit=scale-down,onerror=redirect/uploads/asset/file/4bd8190e-5573-41e3-8583-c589e492783f/apple.png'
-            />-->*/}
+            />{' '}
+            {/*-->*/}
             <GetBlog className='lg:mx-40 flex justify-center mx-11' />
           </div>
         </div>
