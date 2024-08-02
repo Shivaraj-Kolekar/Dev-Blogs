@@ -67,7 +67,9 @@ function Blogpage (props) {
           ></div>
         </div>
       ) : (
-        <p>Loading...</p>
+        <p className='flex justify-center align-middle text-2xl text-white font-semibold'>
+          Loading...
+        </p>
       )}
     </div>
   )
