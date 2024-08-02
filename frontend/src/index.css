@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 .BlogCard {
-  min-width: 360px;
-
-  width: 370px;
+  min-width: 290px;
+  width: 260px;
   height: auto;
 }
 .image {
-  width: 330;
+  width: auto;
   height: 200px;
   display: flex;
   justify-content: center;
