@@ -62,7 +62,7 @@ function Blogpage (props) {
           <p className='my-4'>{blog.description}</p>
           {/*<p className='my-4'>{blog.body}</p>*/}
           <div
-            className='my-4'
+            className='my-4 min-h-screen min-w-screen'
             dangerouslySetInnerHTML={createMarkup(blog.body)}
           ></div>
         </div>

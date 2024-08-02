@@ -40,7 +40,7 @@ function App () {
             </div>
           </div>
           <h3 className='text-3xl my-2 p-4 text-white'>Blog Posts</h3>
-          <div className='p-4'>
+          {/*<div className='p-4'>
             <h2 className='text-white'>Categories</h2>
             <ul class='flex text-xl flex-row gap-4 my-2 *:rounded-full w-fit *:border-2 *border-zinc-800  *:px-4 *:py-2 *:bg-slate-600/50 '>
               <li className='hover:scale-105 hover:border-zinc-100 border-gray-600'>
@@ -53,7 +53,7 @@ function App () {
                 Web
               </li>
             </ul>
-          </div>
+          </div>*/}
           <div className='blogs flex justify-center  flex-wrap align-middle gap-4 p-4 '>
             {/*<BlogCard
               title="Google's Monumental Code Migration: From Perforce to Piper"
