@@ -25,7 +25,7 @@ function GetBlog () {
 
   return (
     <div>
-      <div className='flex justify-center flex-row flex-wrap '>
+      <div className='flex flex-row flex-wrap '>
         {blogs.map((blog, index) => (
           /*<div
             className='bg-slate-700 rounded-lg w-auto text-start p-8  m-8 h-fit '

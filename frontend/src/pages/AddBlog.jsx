@@ -74,7 +74,7 @@ function AddBlog () {
       >
         <label className='text-2xl font-semibold mx-4'>Title</label>
         <input
-          className='bg-slate-900 lg:w-auto w-auto border-2 border-gray-600 text-2xl m-4 p-2 rounded-lg'
+          className='bg-zinc-900 lg:w-auto w-auto border-2 border-gray-600 text-2xl m-4 p-2 rounded-lg'
           type='text'
           name='title'
           value={title}
@@ -83,14 +83,14 @@ function AddBlog () {
         />
         <label className='text-2xl font-semibold mx-4'>Thumbnail</label>
         <input
-          className='bg-slate-900 lg:w-auto  border-2 border-gray-600 text-2xl m-4 p-2 rounded-lg'
+          className='bg-zinc-900 lg:w-auto  border-2 border-gray-600 text-2xl m-4 p-2 rounded-lg'
           type='file'
           name='thumbnail'
           onChange={e => setThumbnail(e.target.files[0])} // Handle file change
         />
         <label className='text-2xl font-semibold mx-4'>Author</label>
         <input
-          className='bg-slate-900 lg:w-auto  border-2 border-gray-600 text-2xl m-4 p-2 rounded-lg'
+          className='bg-zinc-900 lg:w-auto  border-2 border-gray-600 text-2xl m-4 p-2 rounded-lg'
           type='text'
           name='author'
           value={author}
@@ -99,7 +99,7 @@ function AddBlog () {
         />
         <label className='text-2xl font-semibold mx-4'>Description</label>
         <input
-          className='bg-slate-900 lg:w-auto  border-2 border-gray-600 text-2xl m-4 p-2 rounded-lg'
+          className='bg-zinc-900 lg:w-auto  border-2 border-gray-600 text-2xl m-4 p-2 rounded-lg'
           type='text'
           name='description'
           value={description}
