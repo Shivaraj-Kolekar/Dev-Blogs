@@ -53,7 +53,7 @@ function Blogpage (props) {
           <div className='w-screen p-2 '>
             <img
               className=' image rounded-xl h-full w-full'
-              src={`http://localhost:3000/${blog.thumbnail}`}
+              src={`https://dev-blogs-1.onrender.com/uploads/${blog.thumbnail}`}
               alt='Thumbnail'
             />
           </div>
