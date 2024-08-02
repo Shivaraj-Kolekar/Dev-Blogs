@@ -8,6 +8,9 @@
   height: auto;
 }
 .image {
-  width: auto;
+  width: 330;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

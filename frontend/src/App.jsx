@@ -55,7 +55,7 @@ function App () {
             </ul>
           </div>
           <div className='blogs flex justify-center  flex-wrap align-middle gap-4 p-4 '>
-            <BlogCard
+            {/*<BlogCard
               title="Google's Monumental Code Migration: From Perforce to Piper"
               date='2/7/24'
               author='john doe'
