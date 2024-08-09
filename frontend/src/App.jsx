@@ -57,13 +57,13 @@ function App () {
             </ul>
           </div>*/}
           <div className='blogs flex justify-center  flex-wrap align-middle gap-4 p-4 '>
-            <BlogCard
+            {/*<BlogCard
               title="Google's Monumental Code Migration: From Perforce to Piper"
               date='2/7/24'
               author='john doe'
               source='https://media.beehiiv.com/cdn-cgi/image/format=auto,width=800,height=421,fit=scale-down,onerror=redirect/uploads/asset/file/93b39918-f68d-44fc-a280-7e6e403a4325/google.png'
             />
-            {/*<BlogCard
+            <BlogCard
               title='GitLab’s DevSecOps Report Highlights AI Challenges'
               date='2/7/24'
               author='john doe'
