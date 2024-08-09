@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer () {
   return (
-    <div className='lg:mx-40 mx-4 mb-4 flex flex-col lg:flex-row justify-between'>
+    <div className='lg:mx-40 mx-4 mb-4 mt-12 flex flex-col lg:flex-row justify-between'>
       <div>
         <h1 className='font-bold'>DEV Blogs</h1>
         <p className='w-96'>

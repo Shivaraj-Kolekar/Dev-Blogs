@@ -35,16 +35,16 @@ function header () {
         </button>*/}
 
           <Link
-            className='bg-gray-50 text-black text-lg font-semibold px-4 py-2 hover:bg-gray-200 hover:border-white border-2 border-transparent hover:scale-110 transition-all transform text-center rounded-lg mx-2 my-2'
+            className='bg-gray-50 text-black text-lg self-center font-semibold px-4 text-center py-2 hover:bg-gray-200 hover:border-white border-2 border-transparent hover:scale-110 transition-all transform  rounded-lg mx-2 my-2'
             to='/add'
           >
-            Add Blog
+            Add
           </Link>
 
           <SignedOut>
             <SignInButton
               value='subscribe'
-              className='bg-gray-50  text-black hover:bg-gray-200 hover:border-white border-2 border-transparent hover:scale-110 transition-all transform px-4 text-lg font-semibold py-2 rounded-lg mx-2 my-2'
+              className='bg-gray-50 self-center text-black hover:bg-gray-200 hover:border-white border-2 border-transparent hover:scale-110 transition-all text-center transform px-4 text-lg font-semibold py-2 rounded-lg mx-2 my-2'
             />
           </SignedOut>
           <SignedIn
