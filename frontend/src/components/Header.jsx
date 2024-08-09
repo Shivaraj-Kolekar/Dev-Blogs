@@ -6,12 +6,16 @@ import {
   SignInButton,
   UserButton
 } from '@clerk/clerk-react'
+import reactLogo from '../assets/retro computer-rafiki (1).svg'
 function header () {
   return (
-    <div className=' bg-slate-800 py-1  '>
-      <div className='lg:mx-40 mx-4 flex align-middle justify-between my-2'>
-        <h1 className=' text-xl font-bold my-4 text-center flex align-middle'>
-          <Link to='/'>Dev's Blog</Link>
+    <div className=' bg-transparent py-4 '>
+      <div className='lg:mx-40 mx-4 flex align-middle justify-between my-1'>
+        <h1 className=' text-2xl font-bold self-center text-center flex align-middle'>
+          <img src={reactLogo}></img>
+          <Link to='/' className='self-center mx-2'>
+            Dev's Blog
+          </Link>
         </h1>
         {/*<SignedOut>
         <SignInButton
@@ -31,7 +35,7 @@ function header () {
         </button>*/}
 
           <Link
-            className='bg-sky-500 text-lg font-semibold px-4 py-2 hover:bg-sky-400 hover:border-white border-2 border-transparent hover:scale-110 transition-all transform text-center rounded-lg mx-2 my-2'
+            className='bg-gray-50 text-black text-lg font-semibold px-4 py-2 hover:bg-gray-200 hover:border-white border-2 border-transparent hover:scale-110 transition-all transform text-center rounded-lg mx-2 my-2'
             to='/add'
           >
             Add Blog
@@ -40,7 +44,7 @@ function header () {
           <SignedOut>
             <SignInButton
               value='subscribe'
-              className='bg-sky-500 hover:bg-sky-400 hover:border-white border-2 border-transparent hover:scale-110 transition-all transform px-4 text-lg font-semibold py-2 rounded-lg mx-2 my-2'
+              className='bg-gray-50  text-black hover:bg-gray-200 hover:border-white border-2 border-transparent hover:scale-110 transition-all transform px-4 text-lg font-semibold py-2 rounded-lg mx-2 my-2'
             />
           </SignedOut>
           <SignedIn
