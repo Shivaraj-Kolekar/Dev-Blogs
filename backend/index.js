@@ -14,7 +14,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
 
 app.use(
   cors({
-    origin: 'https://dev-blogs-2.onrender.com/',
+    origin: 'https://dev-blogs-seven-delta.vercel.app',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type']
   })
