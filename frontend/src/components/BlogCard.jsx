@@ -23,7 +23,7 @@ function BlogCard (props) {
           {/*<p className='text-xl mb-2 font-semibold'>{props.description}</p>*/}
           <Link
             to={`/blog/${props.title}`}
-            className='bg-white text-zinc-900 mb-0 py-2 w-fit px-4 self-center text-center font-bold text-xl rounded-lg hover:scale-105 hover:shadow-lg transition-transform transform border-2   '
+            className='bg-white text-zinc-900  py-2 w-fit px-4 mb-6 self-center text-center font-bold text-xl rounded-lg hover:scale-105 hover:shadow-lg transition-transform transform border-2   '
           >
             Read More
           </Link>
