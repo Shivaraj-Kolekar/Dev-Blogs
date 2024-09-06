@@ -13,6 +13,7 @@ import {
   SignInButton,
   UserButton
 } from '@clerk/clerk-react'
+import { Link } from 'react-router-dom'
 
 function App () {
   return (
@@ -26,16 +27,16 @@ function App () {
               trends in the market.
             </h1>
             <div className='flex flex-col lg:flex-row self-center'>
-              <input
+              {/*<input
                 className='mb-4 mx-4  w-80  self-center border-2 bg-slate-600 p-2 rounded-lg border-gray-500'
                 type='email'
                 placeholder='Youremail@mail.com'
-              ></input>
+              ></input>*/}
               <button
                 className='bg-sky-500 mb-4 self-center text-xl font-semibold h-fit w-fit px-4 py-2  rounded-lg '
                 type='submit'
               >
-                Subscribe
+                <Link to='/add'>Get Started</Link>
               </button>
             </div>
           </div>
