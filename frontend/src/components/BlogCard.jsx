@@ -14,7 +14,7 @@ function BlogCard (props) {
             alt='Thumbnail'
           />
         </div>*/}
-        <div className=' mt-4 grid row-span-5'>
+        <div className=' mt-4 '>
           <p className=' text-sm  font-medium'>{props.date}</p>
           <h1 className='text-white  font-semibold text-xl flex flex-wrap'>
             {props.title}
