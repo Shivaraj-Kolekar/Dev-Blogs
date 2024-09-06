@@ -6,7 +6,7 @@ function BlogCard (props) {
   const { thumbnail, date, title, author, description } = props
   return (
     <>
-      <div className='BlogCard px-4 grid pt-4 grid-rows-12 mx-2 h-fit cursor-pointer  bg-slate-950 my-2 sm:col-span-2 md:col-span-3 lg:col-span-4 border-gray-700 shadow-slate-950 drop-shadow-lg hover:border-sky-300  hover:scale-105 hover:shadow-lg transition-transform transform border-2 text-white rounded-xl   '>
+      <div className='BlogCard px-4 grid pt-4 grid-rows-5 mx-2 h-fit cursor-pointer  bg-slate-950 my-2 sm:col-span-2 md:col-span-3 lg:col-span-4 border-gray-700 shadow-slate-950 drop-shadow-lg hover:border-sky-300  hover:scale-105 hover:shadow-lg transition-transform transform border-2 text-white rounded-xl   '>
         {/*<div className='grid row-span-6    '>
           <img
             className=' image rounded-lg h-auto w-auto '
@@ -14,7 +14,7 @@ function BlogCard (props) {
             alt='Thumbnail'
           />
         </div>*/}
-        <div className=' mt-4 '>
+        <div className=' mt-4 grid row-span-5'>
           <p className=' text-sm  font-medium'>{props.date}</p>
           <h1 className='text-white  font-semibold text-xl flex flex-wrap'>
             {props.title}

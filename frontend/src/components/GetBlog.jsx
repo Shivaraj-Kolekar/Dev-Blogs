@@ -42,7 +42,7 @@ function GetBlog () {
             key={blog.id || index}
             title={blog.title}
             description={blog.description}
-            thumbnail={blog.thumbnail}
+            //thumbnail={blog.thumbnail}
             date={new Date(blog.createdAt).toLocaleDateString()}
             body={blog.body}
             author={blog.author}
