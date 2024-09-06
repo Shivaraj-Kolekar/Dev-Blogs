@@ -51,11 +51,11 @@ function Blogpage (props) {
             {blog.title}
           </h1>
           <div className='w-screen p-2 '>
-            <img
+            {/*<img
               className=' image rounded-xl h-full w-full'
               src={`https://dev-blogs-1.onrender.com/uploads/${blog.thumbnail}`}
               alt='Thumbnail'
-            />
+            />*/}
           </div>
           <h5 className='mt-2 mb-4'>By: {blog.author}</h5>
           <h5 className='mt-2 mb-4'>Date: {blog.date}</h5>

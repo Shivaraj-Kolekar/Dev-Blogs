@@ -20,7 +20,7 @@ const BlogDisplay = () => {
     <div>
       {blogs.map(blog => (
         <div key={blog.id}>
-          {blog.thumbnail && <img src={blog.thumbnail} alt='Thumbnail' />}
+          {/*{blog.thumbnail && <img src={blog.thumbnail} alt='Thumbnail' />}*/}
           <h2>{blog.title}</h2>
           <ReactMarkdown>{blog.content}</ReactMarkdown>
           <p>By {blog.author}</p>
